@@ -1,4 +1,4 @@
-const Star = require('../models/Star');
+const Star = require('../models/star.js');
 
 const getAllStars = async (req, res) => {
     try {

@@ -1,4 +1,5 @@
-const Planet = require('../models/Planet');
+
+const Planet = require('../models/planet.js');
 
 const getAllPlanets = async (req, res) => {
     try {

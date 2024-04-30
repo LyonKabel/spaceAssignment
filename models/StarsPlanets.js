@@ -1,7 +1,7 @@
 const { DataTypes, Model } = require('sequelize');
 const sequelize = require('../database/connection');
-const Planet = require('./Planet');
-const Star = require('./Star');
+const Planet = require('./planet');
+const Star = require('./star');
 
 class StarsPlanets extends Model {}
 

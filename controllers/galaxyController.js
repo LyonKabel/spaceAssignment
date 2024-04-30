@@ -1,4 +1,4 @@
-const Galaxy = require('../models/GalaxyOR');
+const Galaxy = require('../models/galaxy.js');
 
 const getAllGalaxies = async (req, res) => {
     try {
